@@ -1,5 +1,7 @@
 # Plot 4
 
+png("Plot4.png", width = 480, height = 480)
+
 par(mfrow = c(2,2), mar = c(4, 4, 1, 1), oma = c(0, 0, 1, 0))
 
 # plot 4.1
@@ -21,6 +23,5 @@ legend("topright",lty = 1, col = c("black", "red", "blue"), legend = c("Sub_mete
 plot(Data$DateTime,Data$Global_reactive_power, type = "l", lty = 1, xlab = "datetime", ylab = "Global_reactive_power", adj = 0.5)
 
 
-dev.copy(png,'Plot4.png')
 dev.off()
 
