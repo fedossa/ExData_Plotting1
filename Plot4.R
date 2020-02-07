@@ -1,3 +1,5 @@
+source("Data Prep.R")
+
 # Plot 4
 
 png("Plot4.png", width = 480, height = 480)
