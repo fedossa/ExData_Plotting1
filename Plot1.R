@@ -1,3 +1,7 @@
+# get cleaned dataset
+
+source("Data Prep.R")
+
 # Plot 1 
 png("Plot1.png", width = 480, height = 480)
 
