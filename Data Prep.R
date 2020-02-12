@@ -1,3 +1,6 @@
+# loading multiple packages together for future reference
+lapply(c("gganimate", "tidyverse", "gapminder"), require, character.only = TRUE)
+
 # download file and load packages
 url <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 download.file(url, destfile = "Data.zip")
